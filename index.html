@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>Earth</h1></div>
+                <ul class="navlink">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Service</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="img/menu.svg" alt=""></div>
+            </nav>
+            <div class="header-container">
+                <h1>Earth</h1>
+                <p>Endless potential</p>
+                <button class="primary-btn">Explore</button>
+            </div>
+        </div>
+
+    </section>
+    <section id="services">
+        <div class="service">
+            <img src="img/service-1.png" alt="">
+            <h1>Web design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut minima dolorem magni nostrum? Quam autem aperiam saepe tenetur fugiat.</p>
+        </div>
+        <div class="service">
+            <img src="img/service-2.png" alt="">
+            <h1>Graphic design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut minima dolorem magni nostrum? Quam autem aperiam saepe tenetur fugiat.</p>
+        </div>
+        <div class="service">
+            <img src="img/service-3.png" alt="">
+            <h1>UI/UX design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut minima dolorem magni nostrum? Quam autem aperiam saepe tenetur fugiat.</p>
+        </div>
+    </section>
+    <section id="About" class="container">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit incidunt at necessitatibus. Ducimus culpa quos ipsum corporis, vel nihil facere eveniet sed recusandae maxime, rerum distinctio exercitationem nobis, commodi illum.</p>
+        </div>
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+        </div>
+    </section>
+    <section id="talk-to-us">
+        <div class="talk-content">
+            <h1>Talk To Us</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus optio ullam nisi dolores dignissimos id corrupti ratione tenetur earum.</p>
+            <button class="primary-btn">Get in Touch</button>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+        <h1 class="logo">Earth</h1>
+
+        <p>02002 Earth. All rights reserved.</p>
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".navlink");
+
+        menuBtn.addEventListener('click', function(){
+        navlinks.classList.toggle('active')
+
+        })
+    </script>
+    
+
+    
+    
+</body>
+</html>

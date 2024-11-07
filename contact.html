@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>Earth</h1></div>
+                <ul class="navlink">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="img/menu.svg" alt=""></div>
+            </nav>
+            <div class="header-container">
+                <h1>Contact us</h1>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact-us" class="container">
+        <form action="#">
+            <h1>Get in touch</h1>
+
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email adress">
+                <input type="text" placeholder="Phone number">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button class="primary-btn">Send Now</button>
+            </div>
+
+        </form>
+        <div class="address">
+            <h1>Talk to us</h1>
+            <div class="details-wrapper">
+                <div class="details">
+                    <img src="img/email.png" alt="">
+                    <div class="text">
+                        <h6>Email</h6>
+                        <p>somthing@gmail.com</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <img src="img/phone.png" alt="">
+                    <div class="text">
+                        <h6>Phone Number</h6>
+                        <p>+088 12345</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <img src="img/location.png" alt="">
+                    <div class="text">
+                        <h6>Address</h6>
+                        <p>160/4, Ring road, Africa</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="follow-us">
+                <h1>Follow us</h1>
+                <ul class="social-links">
+                    <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/linkedin.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/video.png" alt=""></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </section>
+
+
+
+    <footer>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+        <h1 class="logo">Earth</h1>
+
+        <p>02002 Earth. All rights reserved.</p>
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".navlink");
+
+        menuBtn.addEventListener('click', function(){
+        navlinks.classList.toggle('active')
+
+        })
+    </script>
+    
+
+    
+    
+</body>
+</html>
